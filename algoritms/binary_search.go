@@ -1,6 +1,6 @@
 package algoritms
 
-func Bi_search(arr [13]int, find int) bool {
+func Bi_search(arr []int, find int) bool {
 	var middle int
 	first := 0
 	last := len(arr) - 1

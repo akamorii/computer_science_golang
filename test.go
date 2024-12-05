@@ -7,12 +7,15 @@ import (
 )
 
 func main() {
-	test_linked_list()
-	test_binary_search()
+	unsort_arr := []int{53, 12, 90, 1, 533, 32, 87, 13, 11, 982, 9}
+	se.Buble_sort(&unsort_arr)
+	fmt.Println(unsort_arr)
+	// test_linked_list()
+	// test_binary_search()
 }
 
 func test_binary_search() {
-	zxc := [13]int{1, 4, 7, 90, 128, 133, 145, 147, 150, 151, 154, 156, 157}
+	zxc := []int{1, 4, 7, 90, 128, 133, 145, 147, 150, 151, 154, 156, 157}
 
 	fmt.Println(se.Bi_search(zxc, 133))
 }
